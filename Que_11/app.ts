@@ -47,9 +47,13 @@ for(const guest_name of removedGuests){
     console.log(`Sorry ${guest_name}, I cannot invite you.`)
 }
 
-console.log(guest_names);
-
 for(const guest_name of guest_names){
     console.log(`Hello ${guest_name} you are still invited`)
 }
+
+console.log(guest_names.splice(0,2))
+
+console.log(guest_names)
+
+
 

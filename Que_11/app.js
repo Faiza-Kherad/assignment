@@ -28,8 +28,9 @@ for (var _c = 0, removedGuests_1 = removedGuests; _c < removedGuests_1.length; _
     var guest_name = removedGuests_1[_c];
     console.log("Sorry ".concat(guest_name, ", I cannot invite you."));
 }
-console.log(guest_names);
 for (var _d = 0, guest_names_4 = guest_names; _d < guest_names_4.length; _d++) {
     var guest_name = guest_names_4[_d];
     console.log("Hello ".concat(guest_name, " you are still invited"));
 }
+console.log(guest_names.splice(0, 2));
+console.log(guest_names);
